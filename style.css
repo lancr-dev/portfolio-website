@@ -25,6 +25,7 @@ body {
   align-items: center;
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 
 .navbar-container {
@@ -693,5 +694,20 @@ h3 {
     font-size: 0.8rem;
     text-align: center;
     line-height: 1.5;
+  }
+  .p-desc p {
+    font-size: 0.7rem;
+  }
+
+  .projects-title h2 {
+    font-size: 1rem;
+  }
+
+  .process-title p {
+    font-size: 1rem;
+  }
+
+  .cd-p {
+    font-size: 0.9rem;
   }
 }
